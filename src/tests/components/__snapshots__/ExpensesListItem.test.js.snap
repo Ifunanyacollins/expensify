@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render each expenses 1`] = `
+<div>
+  <p>
+    Title of Payment = &gt;
+    <Link
+      replace={false}
+      to="/edit/1234567"
+    >
+      I bought goat
+    </Link>
+  </p>
+  <p>
+     Amount = &gt; 
+    200
+  </p>
+  <p>
+    Time & Date = &gt;
+    1538130411204
+  </p>
+  <p>
+    Note = &gt; 
+    i got molly i black sheep
+  </p>
+  <br />
+</div>
+`;

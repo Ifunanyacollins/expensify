@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render with data  1`] = `
+<div>
+  <Connect(ExpensesFilterInput) />
+  <ExpensesListItem
+    amount={200}
+    createdAt={1538130411204}
+    description="I bought goat"
+    id="1234567"
+    key="0"
+    note="i got molly i black sheep"
+  />
+  <ExpensesListItem
+    amount={400}
+    createdAt={74}
+    description="I got you ice cream "
+    id="2390348"
+    key="1"
+    note="i got Emelda vanila"
+  />
+  <ExpensesListItem
+    amount={500}
+    createdAt={1538130411204}
+    description="Money man"
+    id="2390345"
+    key="2"
+    note="I have a friend"
+  />
+</div>
+`;
+
+exports[`should render with data when there is no data 1`] = `
+<div>
+  <Connect(ExpensesFilterInput) />
+  <p>
+    No Expenses
+  </p>
+</div>
+`;
